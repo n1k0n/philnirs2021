@@ -1,0 +1,41 @@
+body {
+    background: #1A1A1D;
+    color: white;
+}
+
+.logo-block {
+    background: rgb(20, 20, 20);
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.phil {
+    border-bottom: orange solid;
+    font-family: Playfair Display;
+    font-size: 35px;
+
+}
+
+.text {
+    text-indent: 2em;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.img {
+    width: auto;
+    height: 500px;
+    padding: 50px;
+}

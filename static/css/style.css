@@ -1,0 +1,163 @@
+body {
+    background: #1A1A1D;
+    color: white;
+}
+
+.f-pg .img img {
+    width: 125%;
+    height: auto;
+}
+
+.f-pg .img {
+    position: relative;
+}
+
+.s-pg .img img {
+    float: right;
+    right: 0;
+    width: 125%;
+    height: auto;
+}
+
+.s-pg .sidewall {
+    justify-content: flex-end;
+}
+
+#fp-nav ul li a span {
+    background: white;
+}
+
+.col-5 {
+    padding: 0px;
+}
+
+.main {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.62) 29.56%, rgba(0, 0, 0, 0.25) 91.23%),
+        url(/static/img/ruins-acropolis.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100vh;
+    position: relative;
+}
+
+.main .title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 80px;
+    border-bottom: solid 5px orange;
+}
+
+.card__gallery {
+    margin: 25px;
+}
+
+.card {
+    height: 200px;
+    margin: 5px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.antiquity {
+    background: url(https://thisgreece.ru/images/850x414/Dr%20Gr.jpg);
+    background-size: 100% 100%;
+}
+
+.middleages {
+    background: url(https://knife.media/wp-content/uploads/2018/10/Srednie-veka-1-1024x536.jpg);
+    background-size: 100% 100%;
+}
+
+.enlightenment {
+    background: url(https://media.wsimag.com/attachments/5405106ff1d575623e757957b8b3c2cb21a1ab9f/store/fill/930/523/7de17836fec828abc22d10632638f49b7832a2bf93d057446b48c41bff8f/1700-1800-Courtesy-of-National-Gallery-of-Slovenia.jpg);
+    background-size: 100% 100%;
+}
+
+.modern {
+    background: url(https://lh3.googleusercontent.com/proxy/yI5gP7jVerY1Em-xu-Lr1O-ESdv3S49sTpwN1fd0euO6ek11wlATK-i13bsBTc17BeHKgrSb_5pkOpK4sOfn49Fa7Ayk6TyKx4eZ4yd19SpclEmRdTiuGXE);
+    background-size: 100% 100%;
+}
+
+.card .card__number {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.card .card_row {
+    margin-top: 70px;
+    padding: 15px;
+}
+
+.card .card__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card .card__arrow {
+    font-size: 30px;
+    color: #4E4E50;
+}
+
+.sidewall {
+    height: 100vh;
+    background: #4E4E50;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    border-top: 4px solid #4E4E50;
+    border-right: 4px solid #4E4E50;
+    border-bottom: 4px solid #4E4E50;
+    padding: 40px;
+}
+
+.info__title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.info__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+
+    letter-spacing: 0.02em;
+
+
+    margin-top: 50px;
+
+}
+
+.f-pg .btn {
+    float: right;
+    color: white;
+    margin-top: 20px;
+}
+
+.s-pg .sidewall {
+    border-radius: 50px 0px 0px 50px;
+}
+
+.s-pg .info {
+    border-top: 4px solid #4E4E50;
+    border-left: 4px solid #4E4E50;
+    border-bottom: 4px solid #4E4E50;
+    border-right: 0px;
+}
+
+.s-pg .btn {
+    color: white;
+    margin-top: 20px;
+}
